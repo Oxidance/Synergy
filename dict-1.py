@@ -11,7 +11,7 @@ own_info['age'] = age
 own_info['owner'] = owner
 
 print('Это {} по кличке "{}". Возраст питомца: {} года. Имя владельца: {}'.format(own_info['type_pet'], \
-                                                                                  pets.keys(), own_info['age'], \
+                                                                                  ''.join(pets.keys()), own_info['age'], \
                                                                                   own_info['owner']))
 
 
